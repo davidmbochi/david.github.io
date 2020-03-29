@@ -6,29 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     <title>DAVID MBOCHI</title>
   </head>
-  <body>
+  <body class="bg-info">
       <nav class="navbar navbar-expand-md navbar-light bg-info fixed-top">
          <div class="container">
-          <div class="col-md-4">
-            <span><i>COMPUTER SCIENCE MAJOR</i></span><br>
-            <span>DAVID MBOCHI NJONGE</span>
-          </div>
-         <div class="col-md-8">
-            <ul class="navbar-nav ml-auto">
+              <span><i>COMPUTER SCIENCE MAJOR</i></span>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"> 
+                <span class="navbar-toggler-icon"></span>
+
+              </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">   
+           <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a href="#" class="nav-link ">HOME</a>
+                <a href="#HOME" class="nav-link ">HOME</a>
 
               </li>
                 <li class="nav-item">
-                    <a href="#ABOUT" class="nav-link ">ABOUTME</a>
+                    <a href="#ABOUT" class="nav-link ">ABOUT ME</a>
 
                 </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link ">SERVICES</a>
+                  <a href="#SERVICES" class="nav-link ">SERVICES</a>
 
                 </li>
                 <li class="nav-item">
@@ -42,37 +43,93 @@
 
             </ul>
           </div>
+          </div>
          </div>
 
       </nav>
-        <img src="images/code.jpg" alt="image not loaded" >
-
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 bg-info" id="ABOUT" style="height: 150px;">
-
-            </div>
-
-          </div>
-          <div class="row">
-
-          </div>
-          <div class="row">
-
-          </div> 
-          <div class="row">
-
-          </div>
-
+      <div id="HOME">
+        <div class="image">
+          <img src="images/code.jpg" class="img-fluid" alt="image not found">
+        
         </div>
 
-       
-      
+      </div>
+            <div id="ABOUT" class="bg-info" >
+              <h2>ABOUT ME</h2>
+              <div class="container">
+                <div class="row">
+                  <div class="jumbotron col-md-12">
+                    <p>
+                      Am <strong>David Mbochi Njonge</strong> a student from kenyatta university pursuing a degree in <strong>computer science.</strong><br>
+                      On campus i participate in different clubs such Students developer club by Google,Microsoft Student Partners<br>
+                      and Oracle Ambassadors to learn different technologies.apart from school i have done a java certification on <br>
+                      udemy to improve my skills and increase my competitiveness in the job market.I have a passion for software <br>
+                      development which developed at an early age and am looking forward to learning data science,machine learning, <br>
+                      artificial intelligence and quantum computing in the future.
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+                    </p>
+
+                  </div>
+
+                </div>
+
+              </div>
+            
+            </div>
+
+            <div id="SERVICES" class="bg-info">
+              <span><h2>SERVICES</h2></span>
+              <div class="container ">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="jumbotron">
+                      <P>WEB DESIGN</P>
+
+                    </div>
+
+                  </div>
+                  <div class="col-md-3">
+                    <div class="jumbotron">
+                      <p>WED DEVELOPMENT</p>
+
+                    </div>
+
+                  </div>
+                  <div class="col-md-3">
+                    <div class="jumbotron">
+                      <p>DATABASE SYSTEMS</p>
+
+                    </div>
+
+                  </div>
+                  <div class="col-md-3">
+                    <div class="jumbotron">
+                      <p>CLOUD COMPUTING</p>
+
+                    </div>
+
+                  </div>
+                 
+
+
+                </div>
+
+              </div>
+  
+            </div>
+            <div class="CONTACTS">
+  
+            </div> 
+            <div class="PROJECTS">
+  
+            </div>
+
+            <footer class="bg-info">
+              &copy; Copyright 2020 HTML.am
+            </footer>
+
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>
