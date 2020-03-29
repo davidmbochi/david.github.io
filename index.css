@@ -30,3 +30,13 @@
  html{
      scroll-behavior: smooth;
  }
+#CONTACTS{
+    height: 700px;
+    display: inline-block;
+    width: 100%; 
+
+}
+#social{
+    margin-left: 120px;
+    width:50px;
+}
